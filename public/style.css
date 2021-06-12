@@ -119,7 +119,7 @@ nav li:hover {
 
 /* Styling for the footer */
 
-footer {
+#contact-info {
     background-color: var(--dkblue);
     color: var(--white);
     padding: 5%;
