@@ -157,6 +157,12 @@ footer {
 }
 /* Responsive Design styling */
 
+@media screen and (min-width: 1060px) {
+    #page-title {
+        font-size: 4rem;
+    }
+}
+
 @media screen and (max-width: 1060px) {
 
     header {

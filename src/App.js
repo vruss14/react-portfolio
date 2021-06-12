@@ -1,11 +1,15 @@
 import React from "react";
-
-import './App.css';
+import ContentContainer from "./components/ContentContainer";
 import Header from "./components/Header";
+import About from "./components/About";
  
 function App() {
   return (
-    <Header />
+    <ContentContainer>
+      <Header />
+      <About />
+    </ContentContainer>
+
   );
 }
 

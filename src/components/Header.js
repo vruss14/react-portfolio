@@ -4,7 +4,7 @@ function Header() {
     return (
         <div>
             <header className="d-flex justify-content-center align-items-center">
-                <h1>Valerie Russell's Portfolio</h1>
+                <h1 id="page-title">Valerie Russell's Portfolio</h1>
             </header>
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-center">
