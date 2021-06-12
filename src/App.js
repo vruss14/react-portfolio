@@ -5,17 +5,22 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Project from "./components/Project";
 import Footer from "./components/Footer"
+import Small from "./components/Small"
  
 function App() {
   return (
-    <ContentContainer>
-      <Header />
-      <Main>
-        <About />
-        <Project />
-      </Main>
-      <Footer />
-    </ContentContainer>
+    <div>
+      <ContentContainer>
+        <Header />
+        <Main>
+          <About />
+          <Project />
+        </Main>
+        <Footer />
+      </ContentContainer>
+      <Small />
+    </div>
+
 
   );
 }
