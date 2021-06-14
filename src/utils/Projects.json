@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "images/screenshots/resized/debugged-screenshot-resized.png",
+        "alt": "Debugged and Deconstructed home page",
+        "title": "Debugged & Deconstructed",
+        "description": "RESTful API that allows logged in users to write and edit blog posts about web development.",
+        "deployed_url": "https://debugged-and-deconstructed.herokuapp.com/",
+        "repo_url": "https://github.com/vruss14/web-development-blog"
+    },
+    {
+        "id": 2,
+        "image": "images/screenshots/resized/space-e-screenshot-resized.png",
+        "alt": "Space-E home page",
+        "title": "Space-E",
+        "description": "RESTful API that fetches space-related data from several public third-party APIs to help users learn about space-related topics and upcoming events.",
+        "deployed_url": "https://space-e.herokuapp.com/",
+        "repo_url": "https://github.com/bborumoore/space-e"
+    },
+    {
+        "id": 3,
+        "image": "images/screenshots/resized/dingen-screenshot-resized.png",
+        "alt": "DinGen homepage",
+        "title": "DinGen",
+        "description": "JavaScript-based dinner generator that leverages data from two public third-party APIs to help users plan meals and find new recipes.",
+        "deployed_url": "https://ellisaissa.github.io/DinGen-Web/",
+        "repo_url": "https://github.com/ellisaissa/DinGen-Web"
+    },
+    {
+        "id": 4,
+        "image": "images/screenshots/resized/coding-quiz-screenshot-resized.png",
+        "alt": "Coding Quiz homepage",
+        "title": "Coding Quiz",
+        "description": "Tests junior developers on their front-end web development knowledge, and stores high scores locally.",
+        "deployed_url": "https://vruss14.github.io/coding-quiz/",
+        "repo_url": "https://github.com/vruss14/coding-quiz"
+    },
+    {
+        "id": 5,
+        "image": "images/screenshots/resized/ecommerce-screenshot-resized.png",
+        "alt": "Ecommerce back-end",
+        "title": "E-Commerce Site",
+        "description": "A functional back-end for an e-commerce site. Users can create, read, update, and delete product information as needed.",
+        "deployed_url": null,
+        "repo_url": "https://github.com/vruss14/ecommerce"
+    },
+    {
+        "id": 6,
+        "image": "images/screenshots/original/view-all-departments.png",
+        "alt": "Command line employee tracker",
+        "title": "Employee Tracker",
+        "description": "Simple CMS solution to view and modify basic employee data for an organization via the command line.",
+        "deployed_url": null,
+        "repo_url": "https://github.com/vruss14/employee-tracker"
+    }
+]
