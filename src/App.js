@@ -49,7 +49,7 @@ class App extends Component {
         <div>
           <Switch>
 
-          <Route exact path={process.env.PUBLIC_URL + '/'}>
+          <Route exact path="https://vruss14.github.io/react-portfolio">
               <ContentContainer>
               <Header />
               <Main>
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route exact path={process.env.PUBLIC_URL + '/projects'}>
+            <Route exact path="https://vruss14.github.io/react-portfolio/projects">
               <ContentContainer>
               <Header />
               <Main>
