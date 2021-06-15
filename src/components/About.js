@@ -1,5 +1,8 @@
 import React from "react";
 
+// Component for the home page
+// Includes portrait and about me info
+
 function About() {
     return (
         <section id="about-me">

@@ -1,5 +1,7 @@
 import React from "react";
 
+// Small information at the very bottom of the page (after the footer)
+
 function Small() {
     return (
         <small>

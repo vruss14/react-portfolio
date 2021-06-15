@@ -1,5 +1,7 @@
 import React from "react";
 
+// Clickable buttons on the projects page that filter the displayed projects as needed
+
 function ProjectButtons(props) {
     return (
         <div className="d-flex justify-content-center" id="project-btn-container">

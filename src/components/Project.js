@@ -3,7 +3,7 @@ import React from "react";
 function Project(props) {
 
   // Back-end projects do not have a deployed URL; so the project from the JSON file should either be rendered with
-  // two buttons (if there is a deployed link), or one if it is a back-end project
+  // two buttons (if there is a deployed link), or one (the repository link) if it is a back-end project
 
   if (props.deployed_url) {
     return (

@@ -1,5 +1,7 @@
 import React from "react";
 
+// Footer info includes contact information (clickable icons)
+
 function Footer() {
     return (
         <footer id="contact-info">

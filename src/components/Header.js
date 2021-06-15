@@ -1,5 +1,9 @@
 import React from "react";
 
+// The header includes the main title (displayed on all pages) and the responsive nav bar
+// Link paths are recognized by react-router-dom; #contact-info at the bottom of each page
+
+
 function Header() {
     return (
         <div>
@@ -23,29 +27,6 @@ function Header() {
                         <li className="nav-item ml-5 mr-5">
                             <a className="nav-link text-white" href="/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
                         </li>
-
-
-
-
-
-
-                        {/* <li className="nav-item dropdown ml-5 mr-5">
-                            <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" 
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                            
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#full-stack-apps">Full-stack Applications</a>
-                                <a className="dropdown-item" href="#front-end-apps">Front-end Applications</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#back-end-apps">Back-end Applications</a>
-                            </div>
-                        </li>
-                        <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="#contact-info">Contact Information</a>
-                        </li>
-                        <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
-                        </li> */}
                     </ul>
                 </div>
             </nav>

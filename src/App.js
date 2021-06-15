@@ -20,6 +20,8 @@ class App extends Component {
 
   filterProjects = (event) => {
 
+    // Conditionally sets state based on user preference; filters the projects that are displayed on the projects page
+
     let filtered;
     
     if(event === "front-end") {
@@ -58,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route exact path={["/projects", "/front-end-projects", "/back-end-projects", "/full-stack-projects"]}>
+            <Route exact path="/projects">
               <ContentContainer>
               <Header />
               <Main>
@@ -66,6 +68,8 @@ class App extends Component {
                <ProjectButtons
                   filterProjects={this.filterProjects}
                 />
+            
+            {/* Each filtered project (or the default, which is all projects) are mapped to the Project component */}
             
                 {this.state.filteredProjects.map(project => (
                         
