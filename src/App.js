@@ -49,7 +49,7 @@ class App extends Component {
         <div>
           <Switch>
 
-          <Route path={process.env.PUBLIC_URL + '/'}>
+          <Route exact path={process.env.PUBLIC_URL + '/'}>
               <ContentContainer>
               <Header />
               <Main>
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route path={process.env.PUBLIC_URL + '/projects'}>
+            <Route exact path={process.env.PUBLIC_URL + '/projects'}>
               <ContentContainer>
               <Header />
               <Main>
