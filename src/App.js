@@ -49,7 +49,7 @@ class App extends Component {
         <div>
           <Switch>
 
-          <Route exact path= "/react-portfolio/">
+          <Route exact path= "/">
               <ContentContainer>
               <Header />
               <Main>
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route exact path="/react-portfolio/projects/">
+            <Route exact path="/projects">
               <ContentContainer>
               <Header />
               <Main>
