@@ -19,7 +19,7 @@ function Header() {
                             <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio">Home</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/projects">Projects</a>
+                            <a className="nav-link text-white" href="/#projects">Projects</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
                             <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio/#contact-info">Contact Information</a>
