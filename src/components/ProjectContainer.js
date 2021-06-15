@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectContainer(props) {
     return (
-        <section id="completed-projects">{props.children}</section>
+        <section className="custom-wrapper" id="completed-projects">{props.children}</section>
     )
 }
 

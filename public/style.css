@@ -117,6 +117,14 @@ nav li:hover {
     background-color: var(--olive);
 }
 
+#project-btn-container {
+    margin-bottom: 2rem;
+}
+
+#front-end-btn, #back-end-btn, #full-stack-btn, #display-all-btn {
+    font-size: 1.5rem;
+}
+
 /* Styling for the footer */
 
 #contact-info {
@@ -127,6 +135,7 @@ nav li:hover {
     text-align: center;
     font-size: 5rem;
     display: flex;
+    clear: both;
     justify-content: center;
 }
 
@@ -224,10 +233,6 @@ nav li:hover {
         font-size: 3rem;
     }
 
-    .display-4 {
-        font-size: 1.65rem;
-    }
-
     .custom-wrapper {
         width: 100%;
     }
@@ -249,6 +254,12 @@ nav li:hover {
 
     .project {
         background-size: 100%;
+    }
+
+    #project-btn-container {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .custom-size {
@@ -278,10 +289,6 @@ nav li:hover {
 
     .display-3 {
         font-size: 2rem;
-    }
-
-    .display-4 {
-        font-size: 0.85rem;
     }
 
     #about-me p {

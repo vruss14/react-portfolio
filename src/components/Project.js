@@ -7,39 +7,27 @@ function Project(props) {
 
   if (props.deployed_url) {
     return (
-      <section id="completed-projects">
-
-        <div className = "custom-wrapper">
-            <div className="card mb-5 ml-5 mr-5 custom-card">
-                <img className="card-img-top" src={props.image} alt={props.alt} />
-                <div className="card-body text-center">
-                  <h3 className="card-title display-4">{props.title}</h3>
-                  <p className="card-text">{props.description}</p>
-                  <a href={props.deployed_url} target= "_blank" rel = "noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">Deployed Website</a>
-                  <a href={props.repo_url} target= "_blank" rel = "noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">GitHub Repository</a>
-                </div>
-              </div>
+      <div className="card mb-5 ml-5 mr-5 custom-card">
+        <img className="card-img-top" src={props.image} alt={props.alt} />
+        <div className="card-body text-center">
+          <h3 className="card-title">{props.title}</h3>
+          <p className="card-text">{props.description}</p>
+          <a href={props.deployed_url} target="_blank" rel="noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">Deployed Website</a>
+          <a href={props.repo_url} target="_blank" rel="noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">GitHub Repository</a>
         </div>
-
-      </section>
+      </div>
     )
   }
 
   return (
-    <section id="completed-projects">
-
-      <div className = "custom-wrapper">
-          <div className="card mb-5 ml-5 mr-5 custom-card">
-              <img className="card-img-top" src={props.image} alt={props.alt} />
-              <div className="card-body text-center">
-                <h3 className="card-title display-4">{props.title}</h3>
-                <p className="card-text">{props.description}</p>                
-                <a href={props.repo_url} target= "_blank" rel = "noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">GitHub Repository</a>
-              </div>
-            </div>
+    <div className="card mb-5 ml-5 mr-5 custom-card">
+      <img className="card-img-top" src={props.image} alt={props.alt} />
+      <div className="card-body text-center">
+        <h3 className="card-title">{props.title}</h3>
+        <p className="card-text">{props.description}</p>
+        <a href={props.repo_url} target="_blank" rel="noreferrer" className="btn btn-primary mb-3 custom-size custom-btn">GitHub Repository</a>
       </div>
-
-    </section>
+    </div>
   )
 }
 

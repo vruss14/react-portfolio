@@ -6,7 +6,8 @@
         "title": "Debugged & Deconstructed",
         "description": "RESTful API that allows logged in users to write and edit blog posts about web development.",
         "deployed_url": "https://debugged-and-deconstructed.herokuapp.com/",
-        "repo_url": "https://github.com/vruss14/web-development-blog"
+        "repo_url": "https://github.com/vruss14/web-development-blog",
+        "type": "full-stack"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "title": "Space-E",
         "description": "RESTful API that fetches space-related data from several public third-party APIs to help users learn about space-related topics and upcoming events.",
         "deployed_url": "https://space-e.herokuapp.com/",
-        "repo_url": "https://github.com/bborumoore/space-e"
+        "repo_url": "https://github.com/bborumoore/space-e",
+        "type": "full-stack"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "title": "DinGen",
         "description": "JavaScript-based dinner generator that leverages data from two public third-party APIs to help users plan meals and find new recipes.",
         "deployed_url": "https://ellisaissa.github.io/DinGen-Web/",
-        "repo_url": "https://github.com/ellisaissa/DinGen-Web"
+        "repo_url": "https://github.com/ellisaissa/DinGen-Web",
+        "type": "front-end"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "title": "Coding Quiz",
         "description": "Tests junior developers on their front-end web development knowledge, and stores high scores locally.",
         "deployed_url": "https://vruss14.github.io/coding-quiz/",
-        "repo_url": "https://github.com/vruss14/coding-quiz"
+        "repo_url": "https://github.com/vruss14/coding-quiz",
+        "type": "front-end"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "title": "E-Commerce Site",
         "description": "A functional back-end for an e-commerce site. Users can create, read, update, and delete product information as needed.",
         "deployed_url": null,
-        "repo_url": "https://github.com/vruss14/ecommerce"
+        "repo_url": "https://github.com/vruss14/ecommerce",
+        "type": "back-end"
     },
     {
         "id": 6,
@@ -51,6 +56,7 @@
         "title": "Employee Tracker",
         "description": "Simple CMS solution to view and modify basic employee data for an organization via the command line.",
         "deployed_url": null,
-        "repo_url": "https://github.com/vruss14/employee-tracker"
+        "repo_url": "https://github.com/vruss14/employee-tracker",
+        "type": "back-end"
     }
 ]

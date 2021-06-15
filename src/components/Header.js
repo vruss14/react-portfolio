@@ -12,12 +12,24 @@ function Header() {
                 <div id="navbarSupportedContent">
                     <ul className="navbar-nav" id="custom-navbar">
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="#">Home</a>
+                            <a className="nav-link text-white" href="/">Home</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="#about-me">About Me</a>
+                            <a className="nav-link text-white" href="/projects">Projects</a>
                         </li>
-                        <li className="nav-item dropdown ml-5 mr-5">
+                        <li className="nav-item ml-5 mr-5">
+                            <a className="nav-link text-white" href="#contact-info">Contact Information</a>
+                        </li>
+                        <li className="nav-item ml-5 mr-5">
+                            <a className="nav-link text-white" href="/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
+                        </li>
+
+
+
+
+
+
+                        {/* <li className="nav-item dropdown ml-5 mr-5">
                             <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" 
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                             
@@ -33,7 +45,7 @@ function Header() {
                         </li>
                         <li className="nav-item ml-5 mr-5">
                             <a className="nav-link text-white" href="/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>
