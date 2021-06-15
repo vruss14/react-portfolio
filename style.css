@@ -1,0 +1,319 @@
+/* Declaring variables for the page's color scheme */
+
+:root {
+    --gray: #a09fa1;
+    --dkblue: #1a2d57;
+    --white: #FFFFFF;
+    --black: #000000;
+    --olive: #4B6644;
+}
+
+/* Layout styling */
+
+body {
+    padding: 5%;
+    background-color: var(--olive);
+}
+
+main {
+    padding-left: 3rem;
+    padding-right: 3rem;  
+}
+
+/* Typography styling */
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    font-size: 24px;
+}
+
+a {
+    font-size: 24px;
+}
+
+/* Styling for the header and navigation */
+
+header {
+    color: var(--white);
+    padding: 5rem;
+    background-color: var(--dkblue)
+}
+
+nav {
+    font-size: 24px;
+}
+
+nav li:hover {
+    background-color: var(--olive);
+}
+
+/* Styling for the About Me section */
+
+#portfolio-img {
+    float: left;
+    height: 1024px;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+#about-me p {
+    margin-bottom: 1%;
+    font-size: 24px;
+}
+
+#about-me {
+    margin-top: 3rem;
+}
+
+.custom-size {
+    font-size: 24px;
+}
+
+
+/* Styling for the Completed Projects section */
+
+#completed-projects {
+    clear: both;
+    margin-top: 1rem;
+}
+
+#completed-projects h2 {
+    text-align: center;
+}
+
+.custom-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    background-color: var(--white);
+    overflow: hidden;
+    border: 1rem solid var(--gray);
+    border-radius: 5rem;
+    max-width: 100%;
+}
+
+.custom-card {
+    width: 36rem;
+}
+
+.custom-card:hover {
+    border: 0.75rem solid var(--dkblue);
+}
+
+.custom-btn {
+    background-color: var(--dkblue);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.custom-btn:hover {
+    background-color: var(--olive);
+}
+
+#project-btn-container {
+    margin-bottom: 2rem;
+}
+
+#front-end-btn, #back-end-btn, #full-stack-btn, #display-all-btn {
+    font-size: 1.5rem;
+}
+
+/* Styling for the footer */
+
+#contact-info {
+    background-color: var(--dkblue);
+    color: var(--white);
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    display: flex;
+    clear: both;
+    justify-content: center;
+}
+
+#email-svg {
+    margin-right: 2rem;
+}
+#phone-svg {
+    margin-right: 1rem;
+}
+
+#phone-svg {
+    margin-left: 5rem;
+}
+
+#github-logo {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#linkedin-logo {
+    margin-left: 5rem;
+}
+
+.footer-icon:hover {
+    transform: scale(1.3);
+    transition: .3s ease-in-out;
+}
+
+#copyright {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+/* Responsive Design styling */
+
+@media screen and (min-width: 1060px) {
+    #page-title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    #custom-navbar {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    #portfolio-img {
+        height: 30rem;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+
+    #email-svg, #phone-svg, #github-logo, #linkedin-logo {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .image-wrapper {
+        display: flex;
+        flex-basis: 4rem;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+
+    .display-2 {
+        font-size: 3.5rem;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .custom-wrapper {
+        width: 100%;
+    }
+
+    .custom-card {
+        width: 100%;
+    }
+
+    #about-me h2 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #about-me p {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 20px;
+    }
+
+    .project {
+        background-size: 100%;
+    }
+
+    #project-btn-container {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .custom-size {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #copyright {
+        font-size: 16px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .display-2 {
+        font-size: 2.5rem;
+    }
+
+    .display-3 {
+        font-size: 2rem;
+    }
+
+    #about-me p {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .custom-size {
+        font-size: 11px;
+    }
+
+    .custom-btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #copyright {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
