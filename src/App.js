@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route path={process.env.PUBLIC_URL + '/#/projects'}>
+            <Route path="/#/projects">
               <ContentContainer>
               <Header />
               <Main>
