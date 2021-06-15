@@ -30,7 +30,7 @@ function About() {
                 Moving forward, I am excited to continue building applications that improve lives and change the world for the
                 better.</p><br />
         
-            <p>Below are links to a few of my favorite completed projects. If you have
+            <p>This portfolio includes links to a few of my favorite completed projects. If you have
                 any questions or if you would like to contact me, you can find my contact information on the bottom of the page.
             </p><br />
         
