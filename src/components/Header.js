@@ -16,16 +16,16 @@ function Header() {
                 <div id="navbarSupportedContent">
                     <ul className="navbar-nav" id="custom-navbar">
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/">Home</a>
+                            <a className="nav-link text-white" href="/#/">Home</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/projects">Projects</a>
+                            <a className="nav-link text-white" href="/#/projects">Projects</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="#contact-info">Contact Information</a>
+                            <a className="nav-link text-white" href="/#/#contact-info">Contact Information</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
+                            <a className="nav-link text-white" href="/#/valerie-russell-technical-resume-may.pdf" target="_blank">Resumé PDF</a>
                         </li>
                     </ul>
                 </div>

@@ -8,7 +8,7 @@ function Project(props) {
   if (props.deployed_url) {
     return (
       <div className="card mb-5 ml-5 mr-5 custom-card">
-        <img className="card-img-top" src={props.image} alt={props.alt} />
+        <img className="card-img-top" src={`/#/${props.image}`} alt={props.alt} />
         <div className="card-body text-center">
           <h3 className="card-title">{props.title}</h3>
           <p className="card-text">{props.description}</p>
@@ -21,7 +21,7 @@ function Project(props) {
 
   return (
     <div className="card mb-5 ml-5 mr-5 custom-card">
-      <img className="card-img-top" src={props.image} alt={props.alt} />
+      <img className="card-img-top" src={`/#/${props.image}`} alt={props.alt} />
       <div className="card-body text-center">
         <h3 className="card-title">{props.title}</h3>
         <p className="card-text">{props.description}</p>
