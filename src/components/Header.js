@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 // The header includes the main title (displayed on all pages) and the responsive nav bar
 // Link paths are recognized by react-router-dom; #contact-info at the bottom of each page
-
 
 function Header() {
     return (
@@ -23,7 +23,7 @@ function Header() {
                             <Link className="nav-link text-white" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio/#contact-info">Contact Information</a>
+                            <HashLink className="nav-link text-white" to="https://vruss14.github.io/react-portfolio/#contact-info">Contact Information</HashLink>
                         </li>
                         <li className="nav-item ml-5 mr-5">
                             <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio/valerie-russell-technical-resume-may.pdf" target="_blank" rel="noreferrer">Resumé PDF</a>
