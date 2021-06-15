@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // The header includes the main title (displayed on all pages) and the responsive nav bar
 // Link paths are recognized by react-router-dom; #contact-info at the bottom of each page
@@ -19,7 +20,7 @@ function Header() {
                             <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio">Home</a>
                         </li>
                         <li className="nav-item ml-5 mr-5">
-                            <a className="nav-link text-white" href="/#projects">Projects</a>
+                            <Link className="nav-link text-white" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item ml-5 mr-5">
                             <a className="nav-link text-white" href="https://vruss14.github.io/react-portfolio/#contact-info">Contact Information</a>

@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     return (
 
-      <HashRouter basename="/react-portfolio">
+      <HashRouter basename="/#">
         <div>
           <Switch>
 
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route exact path="/#projects">
+            <Route exact path="/projects">
               <ContentContainer>
               <Header />
               <Main>
