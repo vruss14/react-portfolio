@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import ContentContainer from "./components/ContentContainer";
 import Header from "./components/Header";
@@ -45,11 +45,11 @@ class App extends Component {
   render() {
     return (
 
-      <BrowserRouter basename="/react-portfolio">
+      <HashRouter basename="/react-portfolio">
         <div>
           <Switch>
 
-          <Route exact path= "/">
+          <Route exact path= "/#/">
               <ContentContainer>
               <Header />
               <Main>
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route path={process.env.PUBLIC_URL + '/projects'}>
+            <Route path={process.env.PUBLIC_URL + '/#/projects'}>
               <ContentContainer>
               <Header />
               <Main>
@@ -96,7 +96,7 @@ class App extends Component {
 
           </Switch>
         </div>
-    </BrowserRouter>
+    </HashRouter>
     );
   }
 }
