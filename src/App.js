@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import ContentContainer from "./components/ContentContainer";
 import Header from "./components/Header";
@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     return (
 
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/react-portfolio">
         <div>
           <Switch>
 
@@ -96,7 +96,7 @@ class App extends Component {
 
           </Switch>
         </div>
-    </HashRouter>
+    </BrowserRouter>
     );
   }
 }

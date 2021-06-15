@@ -8,7 +8,7 @@ function About() {
         <section id="about-me">
         
             <figure className="image-wrapper">
-                <img id="portfolio-img" src="/#/images/screenshots/original/developer-portrait.jpeg" alt="Valerie portrait" />
+                <img id="portfolio-img" src="/images/screenshots/original/developer-portrait.jpeg" alt="Valerie portrait" />
             </figure>
         
             <h2 className="display-3 mb-3">About Me</h2>
