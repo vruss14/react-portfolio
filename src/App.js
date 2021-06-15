@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import ContentContainer from "./components/ContentContainer";
 import Header from "./components/Header";
@@ -49,7 +49,7 @@ class App extends Component {
         <div>
           <Switch>
 
-          <Route exact path="https://vruss14.github.io/react-portfolio">
+          <Route exact path="/">
               <ContentContainer>
               <Header />
               <Main>
@@ -60,7 +60,7 @@ class App extends Component {
               <Small />
             </Route>
 
-            <Route exact path="https://vruss14.github.io/react-portfolio/projects">
+            <Route exact path="/projects">
               <ContentContainer>
               <Header />
               <Main>
