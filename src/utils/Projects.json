@@ -58,5 +58,15 @@
         "deployed_url": null,
         "repo_url": "https://github.com/vruss14/employee-tracker",
         "type": "back-end"
+    },
+    {
+        "id": 7,
+        "image": "images/screenshots/original/google-books-saved.png",
+        "alt": "Google Books search app",
+        "title": "Search Google Books",
+        "description": "An application that utilizes the MERN stack to search and save books from the Google Books API.",
+        "deployed_url": "https://search-google-books-13.herokuapp.com/",
+        "repo_url": "https://github.com/vruss14/search-google-books",
+        "type": "full-stack"
     }
 ]
